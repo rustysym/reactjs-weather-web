@@ -4,6 +4,8 @@
 
 ## Getting Started 
 
+You can test it here (https://rustysym.github.io/reactjs-weather-web/)
+
 I used this [Design](https://www.figma.com/community/file/1005161083412880387/Weather-App) by Mayank Chaudhary
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/emrekalfa)
@@ -16,6 +18,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 | --- | --- |
 | Weather Api | [Weather Api](https://www.weatherapi.com)|
 | .env | Create your .env file for keys|
+
+## Upcoming Features
+
+- Weekly weather report
+- Information bubble
+- Fetch by location
 
 ## Available Scripts
 
