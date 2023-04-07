@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.206156fc.css",
-    "main.js": "/static/js/main.bcc2c3e7.js",
-    "static/js/787.d9312eb8.chunk.js": "/static/js/787.d9312eb8.chunk.js",
-    "static/media/remixicon.svg?t=1680339538483": "/static/media/remixicon.8ed17be9a84821a5c229.svg",
-    "static/media/remixicon.eot?t=1680339538483": "/static/media/remixicon.12918279f6bf4d026004.eot",
-    "static/media/remixicon.ttf?t=1680339538483": "/static/media/remixicon.1cb5749eb3139d87d99f.ttf",
-    "static/media/remixicon.woff?t=1680339538483": "/static/media/remixicon.e7f01573e4cc092f2f9b.woff",
-    "static/media/remixicon.woff2?t=1680339538483": "/static/media/remixicon.9351de0b3af8bf7095ea.woff2",
-    "index.html": "/index.html",
-    "main.206156fc.css.map": "/static/css/main.206156fc.css.map",
-    "main.bcc2c3e7.js.map": "/static/js/main.bcc2c3e7.js.map",
-    "787.d9312eb8.chunk.js.map": "/static/js/787.d9312eb8.chunk.js.map"
+    "main.css": "/reactjs-weather-web/static/css/main.066c2699.css",
+    "main.js": "/reactjs-weather-web/static/js/main.39acfb9f.js",
+    "static/js/787.d9312eb8.chunk.js": "/reactjs-weather-web/static/js/787.d9312eb8.chunk.js",
+    "static/media/remixicon.svg?t=1680339538483": "/reactjs-weather-web/static/media/remixicon.8ed17be9a84821a5c229.svg",
+    "static/media/remixicon.eot?t=1680339538483": "/reactjs-weather-web/static/media/remixicon.12918279f6bf4d026004.eot",
+    "static/media/remixicon.ttf?t=1680339538483": "/reactjs-weather-web/static/media/remixicon.1cb5749eb3139d87d99f.ttf",
+    "static/media/remixicon.woff?t=1680339538483": "/reactjs-weather-web/static/media/remixicon.e7f01573e4cc092f2f9b.woff",
+    "static/media/remixicon.woff2?t=1680339538483": "/reactjs-weather-web/static/media/remixicon.9351de0b3af8bf7095ea.woff2",
+    "index.html": "/reactjs-weather-web/index.html",
+    "main.066c2699.css.map": "/reactjs-weather-web/static/css/main.066c2699.css.map",
+    "main.39acfb9f.js.map": "/reactjs-weather-web/static/js/main.39acfb9f.js.map",
+    "787.d9312eb8.chunk.js.map": "/reactjs-weather-web/static/js/787.d9312eb8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.206156fc.css",
-    "static/js/main.bcc2c3e7.js"
+    "static/css/main.066c2699.css",
+    "static/js/main.39acfb9f.js"
   ]
 }
