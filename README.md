@@ -24,6 +24,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Weekly weather report
 - Information bubble
 - Fetch by location
+- Autocomplete input
+- Responsive design
 
 ## Available Scripts
 
