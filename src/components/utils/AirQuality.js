@@ -33,15 +33,15 @@ const AirQuality = () => {
   };
   return (
     <div>
-      <div className="bg-cover grid grid-cols-3 gap-4 p-20 text-center ">
+      <div className="bg-cover grid grid-cols-3 gap-4 p-20 text-center mt-16">
         <div className="w-24 h-56 bg-white bg-opacity-40 rounded-full flex flex-col justify-center ">
           <h1 className="text-gray-100 w-24">Karbon Monoksit (μg/m3)</h1>
           <span className="text-white mt-12">
             {Math.floor(data.current.air_quality.co)}
           </span>
         </div>
-        <div className="w-24 h-56 bg-white bg-opacity-40 rounded-full flex flex-col justify-center  relative bottom-6 ">
-          <h1 className="text-gray-100 w-24 relative bottom-6">Ozon (μg/m3)</h1>
+        <div className="w-24 h-56 bg-white bg-opacity-40 rounded-full flex flex-col justify-center relative bottom-6 -z-10">
+          <h1 className="text-gray-100 w-24 relative bottom-6">Ozon <br/>(μg/m3)</h1>
           <span className="text-white mt-12">
             {Math.floor(data.current.air_quality.o3)}
           </span>
@@ -59,7 +59,7 @@ const AirQuality = () => {
       </div>
       <div className="flex justify-center">
         <div className="flex flex-col space-x-4">
-          <div className="flex flex-row justify-between mt-10 mr-7 ml-7">
+          <div className="flex flex-row justify-between mt-10 mr-8 ml-8">
             <h1 className="text-2xl text-gray-100">Hava Kalitesi</h1>
             <h1 className="text-2xl text-gray-100">UV İndeksi</h1>
           </div>
