@@ -55,6 +55,7 @@ function ApiProvider({ children }) {
     } catch (err) {
       setAlert(true);
       setError(err);
+      console.clear();
     }
   };
 
