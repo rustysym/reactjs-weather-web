@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from "react";
+import React, { Fragment } from "react";
 import Search from "../utils/Search";
 import WeatherStatus from "./WeatherStatus";
 import FutureCards from "../utils/FutureCards";
@@ -45,8 +45,8 @@ const MainScreen = () => {
                     dismissible={{
                       onClose: () => setAlert(false),
                     }}
-                    color="deep-purple"
-                    className=" max-w-screen-md"
+                    className="max-w-screen-md"
+                    color="orange"
                   >
                     {`${error}`}
                   </Alert>
