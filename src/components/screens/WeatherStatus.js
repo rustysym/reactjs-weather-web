@@ -28,6 +28,7 @@ function WeatherStatus() {
         return "ri-arrow-left-down-line";
       case 'NNW':
       case 'NW':
+      case 'WNW':
         return "ri-arrow-left-up-line";
       case 'NE':
       case 'NNE':
