@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/reactjs-weather-web/static/css/main.b6720097.css",
-    "main.js": "/reactjs-weather-web/static/js/main.9e396bde.js",
+    "main.css": "/reactjs-weather-web/static/css/main.3ccde9a7.css",
+    "main.js": "/reactjs-weather-web/static/js/main.2156cb45.js",
     "static/js/787.d9312eb8.chunk.js": "/reactjs-weather-web/static/js/787.d9312eb8.chunk.js",
     "static/media/remixicon.svg?t=1680339538483": "/reactjs-weather-web/static/media/remixicon.8ed17be9a84821a5c229.svg",
     "static/media/remixicon.eot?t=1680339538483": "/reactjs-weather-web/static/media/remixicon.12918279f6bf4d026004.eot",
@@ -9,12 +9,12 @@
     "static/media/remixicon.woff?t=1680339538483": "/reactjs-weather-web/static/media/remixicon.e7f01573e4cc092f2f9b.woff",
     "static/media/remixicon.woff2?t=1680339538483": "/reactjs-weather-web/static/media/remixicon.9351de0b3af8bf7095ea.woff2",
     "index.html": "/reactjs-weather-web/index.html",
-    "main.b6720097.css.map": "/reactjs-weather-web/static/css/main.b6720097.css.map",
-    "main.9e396bde.js.map": "/reactjs-weather-web/static/js/main.9e396bde.js.map",
+    "main.3ccde9a7.css.map": "/reactjs-weather-web/static/css/main.3ccde9a7.css.map",
+    "main.2156cb45.js.map": "/reactjs-weather-web/static/js/main.2156cb45.js.map",
     "787.d9312eb8.chunk.js.map": "/reactjs-weather-web/static/js/787.d9312eb8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6720097.css",
-    "static/js/main.9e396bde.js"
+    "static/css/main.3ccde9a7.css",
+    "static/js/main.2156cb45.js"
   ]
 }
