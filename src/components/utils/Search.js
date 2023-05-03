@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import { useApiContext } from "./ApiContext";
 
 import { Input } from "@material-tailwind/react";
@@ -10,6 +10,12 @@ const Search = () => {
     searchData,
     searchText,
     setSearchText,
+    setLat,
+    setLong,
+    fetchLocation,
+    setError,
+    lat,
+    long
   } = useApiContext();
 
   const [isTyping, setIsTyping] = useState(false);
@@ -48,12 +54,34 @@ const Search = () => {
       fetchData();
     }
   };
+  const getLocation = (e) =>{
+    e.preventDefault();
+    try {
+      navigator.geolocation.getCurrentPosition((position) => {
+            setLat(position.coords.latitude);
+            setLong(position.coords.longitude);
+            if(lat && long != 0 ){
+              fetchLocation()
+              }
+      })
+    }
+      catch (err) {
+        setError(err)
+      }
+    
+  }
+useEffect(() => {
+  if(lat && long != 0 ){
+    fetchLocation()
+    }
+}, [lat,long])
 
+ 
   return (
     <div>
       <div className="mt-10 flex align-center">
-        <a className="self-center">
-          <i className="ri-map-pin-2-line ri-xl text-white mr-8 ml-20"></i>
+        <a className="self-center cursor-pointer" onClick={getLocation}>
+          <i className="ri-map-pin-2-line ri-xl text-white mr-8 ml-20 hover:text-indigo-600"></i>
         </a>
         <Input
           variant="standard"

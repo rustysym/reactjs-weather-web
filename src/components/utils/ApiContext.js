@@ -14,12 +14,17 @@ function ApiProvider({ children }) {
   const [searchText, setSearchText] = useState("");
   const [alert, setAlert] = useState(false);
   const [error, setError] = useState(null);
-
+  const [lat, setLat] = useState(0);
+  const [long, setLong] = useState(0);
+  console.log(lat,long)
   // you can change &lang parameter for your language
+  
   const apiKey = process.env.REACT_APP_API_KEY;
   const apiUrl = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q="${searchQuery}"&dt=2023-05-04&lang=tr&aqi=yes`;
+  const geoUrl = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${lat},${long}&dt=2023-05-04&lang=tr&aqi=yes`;
   const searchApiUrl = `https://api.weatherapi.com/v1/search.json?key=${apiKey}&q="${searchText}"`;
 
+  
   const fetchData = () => {
     const options = {
       method: "GET",
@@ -48,6 +53,7 @@ function ApiProvider({ children }) {
     }, 1000);
   }, []);
 
+  
   const fetchSearch = async () => {
     try {
       const res = await axios.get(searchApiUrl);
@@ -62,6 +68,17 @@ function ApiProvider({ children }) {
   useEffect(() => {
     fetchSearch();
   }, [searchApiUrl]);
+  
+  const fetchLocation = async () => {
+    try {
+      const res = await axios.get(geoUrl);
+      setData(res.data);
+    } catch (err) {
+      setAlert(true);
+      setError(err);
+      console.clear();
+    }
+  };
 
   return (
     <ApiContext.Provider
@@ -79,6 +96,11 @@ function ApiProvider({ children }) {
         setAlert,
         error,
         setError,
+        setLat,
+        setLong,
+        fetchLocation,
+        lat,
+        long
       }}
     >
       {children}
