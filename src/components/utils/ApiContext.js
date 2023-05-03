@@ -16,7 +16,7 @@ function ApiProvider({ children }) {
   const [error, setError] = useState(null);
   const [lat, setLat] = useState(0);
   const [long, setLong] = useState(0);
-  console.log(lat,long)
+ 
   // you can change &lang parameter for your language
   
   const apiKey = process.env.REACT_APP_API_KEY;
